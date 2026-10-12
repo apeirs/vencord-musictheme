@@ -45,8 +45,9 @@ const hsl = (h: number, s: number, l: number) => `hsl(${h}, ${s}%, ${l}%)`;
 
 function updateTheme([r, g, b]: number[]) {
     const [h, s, l] = rgbToHsl(r, g, b);
+    // Profiles with Nitro theme colors bring their own palette, so leave them alone
     setStyle(`
-        .theme-dark, .theme-dark *, .theme-light, .theme-light * {
+        :is(.theme-dark, .theme-light, .theme-dark *, .theme-light *):not(.custom-user-profile-theme, .custom-user-profile-theme *) {
             --neutral-72: var(--neutral-1);
             --neutral-76: var(--neutral-4);
             --neutral-43: var(--neutral-35);
