@@ -7,14 +7,6 @@ It reads your current music presence (Spotify or YouTube Music), picks the most 
 > YouTube Music needs the [PreMiD](https://premid.app) browser extension so it shows up as a presence.
 > It doesn't work alongside Nitro client themes.
 
-<img src="images/showcase1.png" alt="showcase image red" width="auto">
-<p align="center">
-  <img src="images/showcase2.png" alt="showcase image pink" width="49%">
-  <img src="images/showcase3.png" alt="showcase image yellow" width="49%">
-</p>
-
-<sub>Screenshots are from the original BetterDiscord plugin by Ambralin. The Vencord port looks the same.</sub>
-
 ## Install
 
 Custom plugins only work with a [Vencord source build](https://docs.vencord.dev/installing/custom-plugins/).
